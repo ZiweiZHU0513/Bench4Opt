@@ -1,0 +1,685 @@
+{
+    "LP": {
+        "Network Flow Problem": {
+            "telecommunications_network": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "water_distribution_system": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "electric_power_grid": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var5]"
+            ],
+            "supply_chain_management": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "traffic_management": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "natural_gas_distribution": [],
+            "logistics_and_transportation": [],
+            "internet_traffic_routing": [],
+            "wastewater_management": [],
+            "air_traffic_control": []
+        },
+        "Blending Problem": {
+            "petroleum_refining": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "food_processing": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "chemical_manufacturing": [
+                "_[var1]",
+                "_[var2]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "cement_production": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "pharmaceuticals": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "cosmetics": [],
+            "animal_feed": [],
+            "metal_alloy_production": [],
+            "textile_dyeing": [],
+            "fertilizer_production": []
+        },
+        "Cutting Stock Problem": {
+            "paper_roll_cutting": [
+                "",
+                "_[var3]"
+            ],
+            "metal_sheet_cutting": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "fabric_cutting": [],
+            "glass_cutting": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "wood_panel_cutting": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "leather_cutting": [],
+            "plastic_sheet_cutting": [],
+            "carpet_cutting": [],
+            "foil_cutting": [],
+            "rubber_sheet_cutting": []
+        },
+        "Staff Scheduling Problem": {
+            "hospital_nurse_scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "call_center_agent_scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "restaurant_staff_scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "airport_ground_staff_scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "hotel_housekeeping_scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "manufacturing_plant_worker_scheduling": [],
+            "university_professor_scheduling": [],
+            "public_transport_driver_scheduling": [],
+            "retail_store_employee_scheduling": [],
+            "construction_site_worker_scheduling": []
+        },
+        "Portfolio Optimization Problem": {
+            "financial_investment": [
+                "_[var3]"
+            ],
+            "energy_generation": [
+                "",
+                "_[var1]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "supply_chain_management": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "healthcare_resource_allocation": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "agricultural_land_use": [
+                "",
+                "_[var1]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "advertising_budget_allocation": [],
+            "transportation_network_design": [],
+            "water_resource_management": [],
+            "telecommunications_network_optimization": [],
+            "environmental_conservation": []
+        },
+        "Diet Problem": {
+            "hospital_nutrition_planning": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "school_lunch_programs": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "athlete_diet_optimization": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "elderly_care_nutrition": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "weight_loss_programs": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "food_bank_distribution": [],
+            "military_meal_planning": [],
+            "corporate_cafeteria_menus": [],
+            "prison_meal_planning": [],
+            "disaster_relief_food_distribution": []
+        },
+        "Production Planning Problem": {
+            "energy_generation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "chemical_manufacturing": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "water_treatment": [
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "pharmaceutical_production": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "food_processing": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "oil_refining": [],
+            "textile_manufacturing": [],
+            "paper_production": [],
+            "cement_production": [],
+            "glass_manufacturing": []
+        },
+        "Transportation Problem": {
+            "logistics_and_supply_chain": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "energy_distribution": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "water_resource_management": [
+                "",
+                "_[var1]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "waste_management": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "public_transportation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "food_distribution": [],
+            "pharmaceutical_distribution": [],
+            "fuel_distribution": [],
+            "construction_materials_distribution": [],
+            "agricultural_product_distribution": []
+        }
+    },
+    "MILP": {
+        "Capacitated Facility Location Problem": {
+            "logistics_and_supply_chain": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "healthcare_services": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "emergency_services": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "telecommunications": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "retail_networks": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "waste_management": []
+        },
+        "Knapsack Problem": {
+            "Budget Allocation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Cargo Loading": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Resource Allocation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Portfolio Optimization": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Knapsack Problem in E-commerce": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Event Planning": [],
+            "Supply Chain Management": [],
+            "Marketing Campaigns": [],
+            "Healthcare Resource Allocation": [],
+            "Education Resource Allocation": []
+        },
+        "Assignment Problem": {
+            "Employee Scheduling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Task Assignment in Project Management": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "School Timetabling": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "College Course Allocation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Healthcare Staff Assignment": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Manufacturing Job Scheduling": [],
+            "Call Center Agent Scheduling": [],
+            "Sports Team Formation": [],
+            "Facility Location and Assignment": []
+        },
+        "Vehicle Routing Problem (VRP)": {
+            "logistics_and_distribution": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "public_transportation": [
+                "",
+                "_[var3]",
+                "_[var4]"
+            ],
+            "waste_collection": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var5]"
+            ],
+            "emergency_services": [
+                "",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "maintenance_and_repair": [],
+            "food_delivery": [],
+            "postal_and_parcel_delivery": [],
+            "school_bus_routing": [],
+            "sales_and_marketing": []
+        },
+        "Traveling Salesman Problem (TSP)": {
+            "logistics_and_supply_chain": [
+                "",
+                "_[var5]"
+            ],
+            "manufacturing_and_production": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]"
+            ],
+            "circuit_board_design": [
+                "_[var1]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "robotics_and_path_planning": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "sales_and_marketing": [
+                "",
+                "_[var2]",
+                "_[var3]",
+                "_[var5]"
+            ],
+            "healthcare_and_home_visits": [],
+            "tourism_and_travel_planning": [],
+            "waste_collection": []
+        },
+        "Capital Budgeting Problem": {
+            "Corporate Investment": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Public Infrastructure": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Research and Development": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Energy Sector": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Healthcare": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Education": [],
+            "Real Estate Development": [],
+            "Non-Profit Organizations": []
+        },
+        "Set Covering Problem": {
+            "Healthcare Facility Location": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Telecommunications Network Design": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Public Transportation Planning": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var5]"
+            ],
+            "Fire Station Placement": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Warehouse Location Optimization": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "School Districting": [],
+            "Wildlife Reserve Placement": [],
+            "Security Camera Placement": []
+        },
+        "Bin Packing Problem": {
+            "Warehouse Storage Optimization": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Cloud Computing Resource Allocation": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Vehicle Loading": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Memory Allocation in Operating Systems": [
+                "",
+                "_[var1]",
+                "_[var3]",
+                "_[var4]",
+                "_[var5]"
+            ],
+            "Cutting Stock Problem": [
+                "",
+                "_[var1]",
+                "_[var2]",
+                "_[var4]"
+            ],
+            "Telecommunications Frequency Allocation": [],
+            "Classroom Scheduling": [],
+            "Advertisement Slot Allocation": []
+        }
+    }
+}
