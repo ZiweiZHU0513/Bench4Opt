@@ -6,13 +6,13 @@ This repository hosts **Bench4Opt**, a benchmark dataset and evaluation tool des
 
 ## Installation Guide
 
-To install Python with all necessary dependencies, you can set up and activate a new environment with all required packages by executing the following commands from the root folder of this repository in a shell:
+To install all necessary dependencies, you can set up and activate a new environment and install all required packages by executing the following commands from the root folder of this repository in a shell:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-### Benchmark Dataset
+## Benchmark Dataset
 
 The benchmark dataset is organized into two main categories: **MILP** (Mixed-Integer Linear Programming) and **LP** (Linear Programming). Each problem in the dataset is stored in a dedicated folder, classified by its problem name. The folder structure for each problem includes the following files:
 
@@ -22,9 +22,9 @@ The benchmark dataset is organized into two main categories: **MILP** (Mixed-Int
 - **wp.txt**: A detailed description of the word problem.
 - **wp_concise.txt**: A concise version of the word problem.
 
-### Evaluation Tool
+## Evaluation Tool
 
-We present an algorithm to assess the correctness of optimization models using the **Bench4Opt** dataset. In our work, we identify two sufficient conditions ensuring that the WL test graph node coloring algorithm is informative for graph isomorphism testing.  Our algorithm can detect whether problems in **Bench4Opt** satisfies our two sufficient conditions. By running `python generate_valid_path.py`, the names of all **MILP** and **LP** problems would be stored in the file `valid_problem_list`, along with their classification under the specified sufficient condition: "WL Determinable" or "Symmetric Decomposable". There is a demo example for symmetric decomposable problem in `symmetric_detection.ipynb`.
+We present an algorithm to assess the correctness of optimization models using the **Bench4Opt** dataset. In our work, we identify two sufficient conditions ensuring that the WL test graph node coloring algorithm is informative for graph isomorphism testing. Our algorithm can detect whether problems in **Bench4Opt** satisfy our two sufficient conditions. By running `python generate_valid_path.py`, the names of all **MILP** and **LP** problems would be stored in the file `valid_problem_list`, along with their classification under the specified sufficient condition: "WL Determinable" or "Symmetric Decomposable". There is a demo example for a symmetric decomposable problem in `symmetric_detection.ipynb`.
 
-After verified the problem type, we provided an algorithm to detect whether a test instance is equivalent to a standard instance. `equivalence_detection.ipynb` demonstrates a demo for our graph-based equivalence detection algorithm, which evaluates whether two optimization models are equivalent.
+After verifying the problem type, we provided an algorithm to detect whether a test instance is equivalent to a standard instance. `equivalence_detection.ipynb` demonstrates a demo for our graph-based equivalence detection algorithm, which evaluates whether two optimization models are equivalent.
 
